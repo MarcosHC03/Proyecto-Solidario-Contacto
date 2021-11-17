@@ -59,6 +59,8 @@ body {
 }
 
 .container a {
+    display: inline-block;
+    width: max-content;
     font-size: 3vh;
     text-decoration: none;
     color: #bbb;
@@ -96,4 +98,10 @@ body {
     color: #bbb;
     font-size: 2.5vh;
     text-align: center;
+}
+
+@media (max-width:633px) {
+    container a {
+        display: block;
+    }
 }
